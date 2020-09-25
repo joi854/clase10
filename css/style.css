@@ -1,0 +1,48 @@
+
+  nav.opacidad > img:hover{
+    width: 20%;
+    opacity: 0.5;
+  }
+  nav.combinar > p{
+      color: red;
+  }
+  nav.combinar > img{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+nav.combinar > ul > li > a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+    nav.combinar > ul > li {
+        display:inline-block ;
+        padding: 18px 18px;
+    }
+    main.alinear > p{
+        text-align: center;
+    }
+    main > img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+
+}
+p.seudoelemento::first-letter{
+color: rgb(24, 27, 224);
+font-size: 50px;
+}
+div.posicion > .relative{
+position: relative;
+width: 400px;
+height: 200px;
+border: 3px solid ;
+}
+div.posicion > .absoluta{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    border: 2px solid;
+    right: 0;
+}
